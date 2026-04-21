@@ -1,5 +1,5 @@
 CXX := g++
-CXXFLAGS := -O2 -pipe -static -s -std=c++17
+CXXFLAGS := -O2 -pipe -s -std=c++17
 
 all: code
 
@@ -9,4 +9,3 @@ code: code.cpp
 .PHONY: clean
 clean:
 	rm -f code *.o
-
